@@ -4,11 +4,13 @@ import { useRouter } from 'next/router';
 export default function Seo(props) {
   const router = useRouter();
   const meta = {
-    title: 'Next.js Tailwind Starter',
-    site_name: 'Next.js Tailwind Starter',
-    description: 'A template for Next.js and Tailwindcss by Theodorus Clarence',
-    url: 'https://theodorusclarence.com',
-    image: 'https://theodorusclarence.com/favicon/large-og.jpg',
+    title: 'Portfolio --Mudassir Raza',
+    site_name: 'Mudassir Raza portfolio',
+    description:
+      'I am a highly motivated MERN stack developer with 3 years of experience',
+    url: 'https://mudassirraza.com',
+    image:
+      'https://scontent.fkhi10-1.fna.fbcdn.net/v/t1.6435-9/49446044_2229505403984172_60802795533416[…]Qbe6KebdRR7atpxoLDcNHuHjyXABnWLbc5kSyZwzg&oe=621845E1',
     type: 'website',
     robots: 'follow, index',
     ...props,
@@ -48,7 +50,7 @@ export default function Seo(props) {
           <meta
             name='author'
             property='article:author'
-            content='Theodorus Clarence'
+            content='Mudassir Raza'
           />
         </>
       )}
